@@ -2,14 +2,32 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="A tiny website for finding cheap oyster meal deals in Sydney. That's all."/>
+
+  <title>The Cheapest Oyster - Find cheap oysters in Sydney today.</title>
+
   <script src="./app.js" defer></script>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91841605-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-91841605-2');
+  </script>
 </head>
 <body>
-  <img src="logo.jpg" id="logo">
+  <img src="logo2.svg" id="logo" alt="A picture of an oyster.">
   <h1>the cheapest oyster</h1>
-  <div id="message">Loading...</div>
-  <a id="map-button" href="#" target="_blank">Get Directions</button>
+  <p id="message">Loading...</p>
+  <a id="map-button" href="#" target="_blank">Get Directions &rarr;</a>
+  <footer>
+    <p>This is a teeny tiny website made by <a href="https://twitter.com/rupert_parry">@rupert_parry</a> .<br />Tweet me if you want your city.</p>
+  </footer>
 </body>
 </html>

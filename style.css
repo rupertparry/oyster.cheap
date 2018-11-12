@@ -2,13 +2,64 @@ html, body {
   width: 100%;
   text-align: center;
   font-family: "Libre Baskerville", serif;
+  padding: 0;
+  margin: 0;
+  color: #222;
+}
+
+body {
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 #logo {
-  width: 400px;
+  width: 30%;
+  max-width: 150px;
   margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: -20px;
 }
 
 h1 {
   font-style: italic;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+#map-button {
+  display: inline-block;
+  font-style: italic;
+  text-decoration: none;
+  background: #cc3300;
+  color: white;
+  padding: 20px 30px;
+}
+
+#map-button:hover {
+  background: #993300;
+}
+
+footer {
+  margin-top: 40px;
+  color: #aaa;
+}
+
+footer p {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+footer a {
+  color: #999;
+  font-style: italic;
+}
+
+footer a:hover {
+  color: #777;
 }
